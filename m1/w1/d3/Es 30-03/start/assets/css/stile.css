@@ -1,5 +1,13 @@
 /* IMPOSTAZIONI GENERALI */
 
+a{
+    color:red;
+}
+
+hr{
+    border-style: dashed;
+}
+
 h2{
     font-family: 'Raleway', sans-serif;
     color: #20d2d8;
@@ -49,6 +57,17 @@ mark{
     background-color: #20d2d8;
 }
 
+dt{
+    text-decoration: none;
+}
+
+ul{
+    padding-left:  20px;
+}
+
+dd{
+    padding-left: 30px;
+}
 
 /* FOOTER */
 footer{
