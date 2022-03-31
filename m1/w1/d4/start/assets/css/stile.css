@@ -1,0 +1,169 @@
+/* IMPOSTAZIONI GENERALI */
+
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/sfondo.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat:repeat-y;
+    background-size: auto;
+    line-height: normal;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+main{
+    background-color: white;
+    padding: 20px 10px;   
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
+    
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h1{
+    font-size: 28px;
+}
+
+#formattazione{
+    font-weight: normal;
+}
+caption{
+    font-weight: bold;
+}
+
+article, p, table {
+    padding: 10px;
+}
+
+ul, ol{
+    padding: 40px;
+}
+
+li{
+    padding: 5px;
+
+}
+
+#mariogray{
+    color: rgba(128, 128, 128, 0.516);
+}
+
+.viola{
+    color: #e912ed;
+}
+
+.graybox{
+    border: solid 1px rgba(128, 128, 128, 0.516);
+    border-radius: 15%;
+    background-color: rgba(128, 128, 128, 0.459);
+}
+
+/* HEADER */
+
+header{
+    padding: 20px;
+    background-color: #0b889e;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
+    margin-bottom: 10px;
+    
+    }
+
+    #header p{
+        color: white;
+    }
+
+    #header li a{
+        color: white;
+        
+    }
+
+header li{
+    list-style-type: none;
+}
+
+header li::before{
+    content: "\21DB";
+}
+
+header li::after{
+    content: "\21DA"
+}
+
+section{
+    background-color: gray;
+}
+
+
+iframe{
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+table{
+    border-collapse: separate;
+    text-align: center;
+    margin: 0 auto;
+    border-spacing: 10;
+    border-bottom: blue 1px;
+    
+}
+
+thead{
+    background-color: blue;
+    color: white;
+    
+}
+
+.even{
+    background-color: rgba(128, 128, 128, 0.459);
+}
+
+
+fieldset{
+    text-align: center;
+}
+
+button{
+    background-color: blue;
+}
+
+
+.correlated-article{
+    margin: 20px;
+    background-color:rgba(128, 128, 128, 0.459);
+
+}
+
+.data{
+    text-align: right;
+    font-size: small;
+}
+
+footer{
+    background-color: #0b889e;
+    text-align: center;
+}
+
+#epicode{
+    color: #e912ed;
+}
+
+
+/* MAIN */
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
