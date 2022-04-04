@@ -1,0 +1,88 @@
+/*
+    Queste erano solo un po' di prove che ho fatto per capire un meglio quello che abbiamo fatto oggi.
+
+@media(min-width:768px){
+    body{
+        text-align: center;
+        padding: 30px;
+        border: 20px;        
+        font-size: 2em;
+    }
+
+    img{
+
+    }
+
+    main{
+        background-color: green;
+    }
+
+    header{
+        position: static;
+    }
+
+
+    table{
+        align-items: center;
+    }
+    tbody tr {
+        border-bottom: 10px solid #dddddd;
+    }
+
+}
+
+@media(min-width:1200px){
+    body{
+        text-align: center;
+        padding: 60px;
+        border: 40px;        
+        font-size: 4em;
+    }
+
+    main{
+        background-color: yellow;
+    }
+
+    header{
+        position: static;
+    }
+
+    tbody tr {
+        border-bottom: 10px solid #dddddd;
+    }
+
+}*/
+
+@media print {
+        *{
+            font-size: 2rem;
+        }
+
+
+        header, footer{
+            display: none;
+        }
+
+        header img, header p, header a{
+            display: none;
+        }
+
+        main{
+            margin:0;
+        }
+
+        .center{
+            margin: 0;
+        }
+
+        iframe, section, aside{
+            display: none;
+        }
+
+        article img{
+            max-width: 20vw;
+            max-height: 20vh;
+            display: inline;    
+        }
+
+}
