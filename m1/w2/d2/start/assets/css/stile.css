@@ -35,7 +35,7 @@ header nav ul {
 header nav li {
     list-style: none;
     display: inline;
-    padding: 30px;
+    padding: 20px;
 }
 header nav li a {
     color: white;
