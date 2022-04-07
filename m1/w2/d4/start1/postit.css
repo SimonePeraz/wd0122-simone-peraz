@@ -1,0 +1,53 @@
+.container{
+    width: 500px;
+    height:260px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 20px;
+
+}
+
+.postit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: auto;
+    text-align: center;
+}
+
+.postit span{
+    font-size: small;
+}
+
+.postit1, .postit5, .postit7{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    flex-wrap: wrap;
+    transform: rotate(-10deg);
+
+}
+
+.postit2, .postit4, .postit8{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    flex-wrap: wrap;
+    transform: rotate(10deg);
+
+}
+
+.postit3, .postit6{
+    background-color: rgb(231, 93, 231);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    flex-wrap: wrap;
+    transform: rotate(-10deg);
+
+
+}
