@@ -6,15 +6,20 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     font-size: 20px;
+    position: relative;
 
 }
 
 .postit{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     padding: auto;
     text-align: center;
+    transition: width 1s, height 1s;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
 }
 
 .postit span{
@@ -23,9 +28,6 @@
 
 .postit1, .postit5, .postit7{
     background-color: yellow;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
     flex-wrap: wrap;
     transform: rotate(-10deg);
 
@@ -33,9 +35,6 @@
 
 .postit2, .postit4, .postit8{
     background-color: green;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
     flex-wrap: wrap;
     transform: rotate(10deg);
 
@@ -43,11 +42,16 @@
 
 .postit3, .postit6{
     background-color: rgb(231, 93, 231);
-    width: 100px;
-    height: 100px;
-    margin: 10px;
     flex-wrap: wrap;
     transform: rotate(-10deg);
+}
+
+/* hover effect */
 
 
+.postit1:hover, .postit2:hover, .postit3:hover, .postit4:hover, .postit5:hover, .postit6:hover, .postit7:hover, .postit8:hover{
+    width: 120px;
+    height: 120px;
+    transform: rotate(0deg);
+    box-shadow: 8px 8px 3px black;
 }
