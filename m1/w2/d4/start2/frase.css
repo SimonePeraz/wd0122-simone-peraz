@@ -8,3 +8,39 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+div{
+    position: relative;
+    font-size: 50px;
+}
+
+.base{
+    animation-name: sposta-opacity;
+    animation-duration: 2s, 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+
+.parole{
+    display: inline;
+}
+
+.parole-1 i{
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.parole-1 i:nth-child(2) { 
+    animation-delay: 3s; 
+}
+.parole-1 i:nth-child(3) { 
+    animation-delay: 6s; 
+}
+
+
+ @keyframes sposta-opacity{
+    0%{margin-top: -50px; opacity: 0;}
+    50%{margin-top: 0px; opacity: 1;}
+    100%{margin-top: 50px; opacity: 0;}
+
+} 
