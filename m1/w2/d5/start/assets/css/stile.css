@@ -203,6 +203,10 @@ table tr:nth-child(9){
         flex-direction: row;
         justify-content: space-between;
     }
+
+    .central2 div{
+        width: 30%;
+    }
         
     .notebuk{
         display: flex;
@@ -214,7 +218,10 @@ table tr:nth-child(9){
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        
+    }
+
+    footer div{
+        width: 30%;
     }
 }
 /* chi siamo */
