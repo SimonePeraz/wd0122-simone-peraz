@@ -45,7 +45,9 @@ p{
     margin-bottom: 20px;
 }
 
-
+a{
+    text-decoration: none;
+}
 
 
 /* HEADER */
@@ -168,10 +170,17 @@ table tr:nth-child(9){
 @media screen  and (min-width:768px) {
     #menu{
         background-color: white;
-        height: 200px;
-        
+        height: 50px;
     }
-    #apri-menu{
+    
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+
+    #menu-toggle ul li{
         display: inline;
     }
 
@@ -201,4 +210,40 @@ table tr:nth-child(9){
         flex-direction: row;
     }
 }
+
+/* contatti */
+@media screen  and (min-width:768px) {
+    .main-contatti{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+/* 1200px */
+@media screen  and (min-width:1200px) {
+    .container1{
+        color: white;
+        background-image: url(../images/banner.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: center; 
+        height: 200px;
+        text-align: center;
+        position: relative;
+        padding: 100px;
+    }
+
+    #info{
+        position: absolute;
+        left: 200px;
+    }
+
+    .container-blu{
+        height: 200px;
+        padding: 50px 50px 25px 50px;
+    }
+}
+
 
