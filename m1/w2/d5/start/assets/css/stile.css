@@ -1,0 +1,152 @@
+/* IMPOSTAZIONI GENERALI */
+body{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+h2{
+    font-size: 3.5rem;
+    line-height: 1.1;
+}
+h3{
+     line-height: 1;
+     font-weight: bold;
+}
+
+i{
+     color: #e42424;
+}
+
+button, .blu-button{
+    font-size: 1.9rem;
+    border: 1px solid black;
+    color: white;
+    text-decoration: none;
+    background: rgb(108,193,226);
+    background: -moz-linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(9,9,121,1) 64%, rgba(57,47,122,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(9,9,121,1) 64%, rgba(57,47,122,1) 100%);
+    background: linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(9,9,121,1) 64%, rgba(57,47,122,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6cc1e2",endColorstr="#392f7a",GradientType=1);
+    padding: 8px;
+}
+
+div{
+    margin: 0 auto;
+}
+
+p{
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* HEADER */
+header{
+    background-color: white;
+    position: relative;
+}
+
+nav{
+    position: sticky;
+}
+
+#menu{
+    background-color: white;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+#apri-menu{
+    display: none;
+}
+
+input:checked + #menu{
+    height: 200px;
+}
+
+/* MAIN */
+.container1{
+    color: white;
+    background-image: url(../images/banner.jpg);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.central{
+    text-align: center;
+    margin: auto;
+}
+
+.container-blu{
+    color: white;
+    background-color: #0c0633;
+}
+
+
+
+
+/* FOOTER */
+footer{
+    background-color: rgb(238, 238, 238);
+}
+
+/* contatti */
+.contatti{
+    text-align: center;
+}
+form{
+display: flex;
+flex-direction: column;
+padding: 40px;
+}
+
+input{
+    height: 50px;
+}
+
+/* chi siamo */
+
+.container-chi{
+    width: 100%;
+}
+
+.imagine{
+    width: 90%;
+}
+
+.tab-bold{
+    font-weight: bold;
+}
+
+table tr:nth-child(1){
+    background-color: #d2dce7;
+}
+table tr:nth-child(2){
+    background-color: #d2dce7;
+}
+table tr:nth-child(3){
+    background-color: #d2dce7;
+}
+
+table tr:nth-child(7){
+    background-color: #d2dce7;
+}
+table tr:nth-child(8){
+    background-color: #d2dce7;
+}
+table tr:nth-child(9){
+    background-color: #d2dce7;
+}
+
+/* RESPONSIVE */
