@@ -87,7 +87,10 @@ input:checked + #menu{
     text-align: center;
     margin: auto;
 }
-
+.central2{
+    text-align: center;
+    margin: auto;
+}
 .container-blu{
     text-align: center;
     color: white;
@@ -122,6 +125,9 @@ input{
 }
 
 /* chi siamo */
+#chi-siamo{
+    text-align: center;
+}
 
 .container-chi{
     width: 100%;
@@ -130,7 +136,9 @@ input{
 .imagine{
     width: 90%;
 }
-
+ table{
+     width: 100%;
+ }
 .tab-bold{
     font-weight: bold;
 }
@@ -156,3 +164,41 @@ table tr:nth-child(9){
 }
 
 /* RESPONSIVE */
+/* index */
+@media screen  and (min-width:768px) {
+    #menu{
+        background-color: white;
+        height: 200px;
+        
+    }
+    #apri-menu{
+        display: inline;
+    }
+
+    .central2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+        
+    .notebuk{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+}
+/* chi siamo */
+@media screen  and (min-width:768px) {
+    .contatti-chi{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
