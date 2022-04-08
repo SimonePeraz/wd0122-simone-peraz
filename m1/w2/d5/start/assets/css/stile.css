@@ -60,6 +60,7 @@ nav{
     position: sticky;
 }
 
+
 #menu{
     background-color: white;
     height: 0;
@@ -107,7 +108,9 @@ input:checked + #menu{
     text-align: center;
 }
 
-
+.central h2{
+    padding-top: 40px;
+}
 
 
 /* FOOTER */
@@ -196,6 +199,19 @@ table tr:nth-child(9){
 
     #menu-toggle ul li{
         display: inline;
+    }
+
+    .container1{
+        color: white;
+        background-image: url(../images/banner.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: center; 
+        height: 200px;
+        text-align: center;
+        position: relative;
+        padding: 100px;
     }
 
     .central2{
