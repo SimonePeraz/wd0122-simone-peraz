@@ -37,7 +37,7 @@ button, .blu-button{
 }
 
 div{
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 p{
@@ -89,8 +89,14 @@ input:checked + #menu{
 }
 
 .container-blu{
+    text-align: center;
     color: white;
     background-color: #0c0633;
+    width: 100%;
+}
+
+.notebook{
+    text-align: center;
 }
 
 
