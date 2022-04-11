@@ -171,25 +171,30 @@ input{
     font-weight: bold;
 }
 
-table tr:nth-child(1){
+#table-mobile tr:nth-child(1){
     background-color: #d2dce7;
 }
 table tr:nth-child(2){
     background-color: #d2dce7;
 }
-table tr:nth-child(3){
+#table-mobile tr:nth-child(3){
     background-color: #d2dce7;
 }
 
-table tr:nth-child(7){
+#table-mobile tr:nth-child(7){
     background-color: #d2dce7;
 }
-table tr:nth-child(8){
+#table-mobile tr:nth-child(8){
     background-color: #d2dce7;
 }
-table tr:nth-child(9){
+#table-mobile tr:nth-child(9){
     background-color: #d2dce7;
 }
+
+#table-desktop{
+    display: none;
+}
+
 
 /* RESPONSIVE */
 /* index */
@@ -265,6 +270,28 @@ table tr:nth-child(9){
     .contatti-chi{
         display: flex;
         flex-direction: row;
+    }
+
+    #table-mobile{
+        display: none;
+    }
+    #table-div{
+        width: 100%;
+       
+        
+    }
+    #table-desktop{
+        display: contents;
+        width: 100%;
+    }
+    #table-desktop th{
+        background-color: #92b2d3;
+    }
+    #table-desktop tr:nth-child(4){
+        background-color: #d2dce7;
+    }
+    thead{
+        width: 100%;
     }
 }
 
