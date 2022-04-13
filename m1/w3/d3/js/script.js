@@ -72,7 +72,18 @@ function tempoViaggio (x, y, z, v){
 console.log(tempoViaggio(100,30,47,50))
 
 
+function siv (d,e,f){
+    return d * e / f
+}
+console.log(siv(6,7,4))
 
+function cane(g,h,i,l){
+    var j = siv(g,h,i);
+    var k = j * l
+    return k
+}
+    
+console.log(cane(6,7,4,5));
 
 
 
