@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <title>Calcolatrice</title>
+</head>
+<body>
+    <div class="bordo scala">
+    <div class="calcolatrice scala">
+        <div class="schermo">
+            <input type="text" id="display">
+        </div>
+        <div class="row">
+            <button onclick="addNumber(this)">7</button>
+            <button onclick="addNumber(this)">8</button>
+            <button onclick="addNumber(this)">9</button>
+            <button onclick="addNumber(this)">/</button>
+        </div>
+        <div class="row">
+            <button onclick="addNumber(this)">4</button>
+            <button onclick="addNumber(this)">5</button>
+            <button onclick="addNumber(this)">6</button>
+            <button onclick="multiply(this)">X</button>
+        </div>
+        <div class="row">
+            <button onclick="addNumber(this)">1</button>
+            <button onclick="addNumber(this)">2</button>
+            <button onclick="addNumber(this)">3</button>
+            <button onclick="addNumber(this)">-</button>
+        </div>    
+        <div class="row">
+            <button onclick="canc(this)">C</button>
+            <button onclick="addNumber(this)">0</button>
+            <button onclick="addNumber(this)">.</button>
+            <button onclick="addNumber(this)">+</button>
+        </div>
+        <div class="res">
+            <button onclick="result()">=</button>
+        </div>    
+    </div>
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
