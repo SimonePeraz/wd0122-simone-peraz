@@ -18,6 +18,36 @@ background: radial-gradient(circle, rgba(4,0,255,1) 0%, rgba(129,129,236,1) 0%, 
     background: rgb(0,184,255);
     background: radial-gradient(circle, rgba(0,184,255,1) 7%, rgba(129,129,236,1) 49%, rgba(4,0,255,1) 88%);
     transform: scale(0.3);
+    
+    animation-name: pulsa;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    box-shadow: 0px 0px 150px blue, 0px 0px 150px blue;
+
+    animation-name: moveright;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes pulsa{
+    0% {box-shadow: 0px 0px 50px blue, 0px 0px 50px blue;}
+    50%{box-shadow: 0px 0px 300px blue, 0px 0px 200px blue;}
+    100%{box-shadow: 0px 0px 50px blue, 0px 0px 50px blue;}
+    
+}
+
+@keyframes moveright{
+    0%{ margin-left:0px;}
+    50%{ margin-left:89%}
+    100%{margin-left:42%;}
+
+
+}
+
+.bordo:hover{
+    transform: scale(1);
+    transition-duration: 2s;
+    
 }
 
 
@@ -32,9 +62,7 @@ background: radial-gradient(circle, rgba(4,0,255,1) 0%, rgba(129,129,236,1) 0%, 
     position: absolute;
     top: -45px;
     left: 25px;
-}
 
-.calcolatrice{
     animation-name: rotate;
     animation-duration: 3s;
     animation-iteration-count: 1;
@@ -48,40 +76,6 @@ background: radial-gradient(circle, rgba(4,0,255,1) 0%, rgba(129,129,236,1) 0%, 
 
 }
 
-.bordo{
-    animation-name: pulsa;
-    animation-duration: 3s;
-    animation-iteration-count: 2;
-    box-shadow: 0px 0px 150px blue, 0px 0px 150px blue;
-}
-
-@keyframes pulsa{
-    0% {box-shadow: 0px 0px 50px blue, 0px 0px 50px blue;}
-    50%{box-shadow: 0px 0px 300px blue, 0px 0px 200px blue;}
-    100%{box-shadow: 0px 0px 50px blue, 0px 0px 50px blue;}
-    
-}
-
-.bordo:hover{
-    transform: scale(1);
-    transition-duration: 2s;
-    
-}
-
-.bordo{
-    animation-name: moveright;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-
-}
-
-@keyframes moveright{
-    0%{ margin-left:0px;}
-    50%{ margin-left:89%}
-    100%{margin-left:42%;}
-
-
-}
 
 
 input{
@@ -97,14 +91,14 @@ input{
 
 }
 
- .row button{
+.row button{
     box-sizing: border-box;
     width: 59px;
     height: 50px;
      color: blue; 
 }
 
- .res button{
+.res button{
     width: 248px;
     height: 50px;
     color: rgb(144, 213, 244);
