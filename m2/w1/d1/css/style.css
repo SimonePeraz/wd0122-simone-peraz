@@ -1,0 +1,22 @@
+#minuti{
+    background-color: yellow;
+    width: 100px;
+    text-align: center;
+}
+
+#ore{
+    background-color: red;
+    width: 100px;
+    text-align: center;
+}
+
+#secondi{
+    background-color: green;
+    width: 100px;
+    text-align: center;
+}
+
+#orologio{
+    display: flex;
+    flex-direction: row;
+}
