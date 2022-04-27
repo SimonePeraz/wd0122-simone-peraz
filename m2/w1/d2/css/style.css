@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+button{
+    background-color: green;
+}
+
+#msg1{
+    color:yellow;
+}
+
+#msg2{
+    color:orange;
+}
+
+#msg3{
+    color:red;
+}
