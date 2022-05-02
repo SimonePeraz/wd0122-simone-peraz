@@ -1,0 +1,56 @@
+.row > div.es1{
+    background-color: blue;
+    height: 50px;
+    border: 1px solid #000;
+    color: white;
+}
+
+.h1, .h2{
+    text-align: center;
+}   
+
+.row > div.es2{
+    background-color: yellow;
+    height: 50px;
+    border: 1px solid #000;
+    color: black;
+}
+
+.row > div.es3{
+    background-color: green;
+    height: 50px;
+    border: 1px solid #000;
+    color: white;
+}
+
+.row > div.es4{
+    background-color: red;
+    height: 50px;
+    border: 1px solid #000;
+    color: white;
+}
+
+
+.row > div.es5{
+    background-color: aqua;
+    height: 80px;
+    border: 1px solid #000;
+    
+}
+.row > div.es5-ann{
+    background-color: gray;
+    height: 50px;
+    border: 1px solid #000;
+    color: white;
+}
+
+.row > div.es6{
+    background-color: black;
+    height: 80px;
+    border: 1px solid #000;
+    color: white;
+
+    
+}
+
+    
