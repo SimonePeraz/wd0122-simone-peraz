@@ -1,0 +1,32 @@
+@import 'variables';
+
+.showcase-content{
+    
+    a{
+        color: $wht;
+        border: 1px solid black;
+        border-radius: 10%;
+        padding: 20px;
+        margin: 20px 5px 20px 5px;
+        text-decoration: none;
+    } 
+}
+
+.btn-primary{
+    background-color: blue;
+}
+
+
+
+.btn-secondary{
+    background-color: orange;
+}
+
+.showcase-content{
+    a{
+        &:hover{
+            background-color: red;
+            transition: all 0.5s;
+        }
+    }
+}

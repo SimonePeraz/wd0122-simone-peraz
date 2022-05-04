@@ -1,0 +1,50 @@
+@import 'variables';
+@import 'button';
+
+*{
+    color: $test;
+}
+
+.container{
+    background-color: purple;
+}
+
+.showcase-content{
+    display: $dflex;
+    flex-direction: $flrow;
+    margin: $mdef;
+    justify-content: space-evenly;
+    
+    h1{
+        font-size: $fs;
+    }
+    p{
+        margin-bottom: 80px;
+        font-size: 1.8rem;
+
+    }
+    
+
+}
+nav{
+    display: $dflex;
+    flex-direction: $flrow;
+    justify-content: space-evenly;
+
+    a{
+        color: $wht;
+        text-decoration: none;
+    }
+
+}
+ul {
+    li{
+    display: inline;
+    }
+}
+
+img{
+    margin: $mdef;
+
+}
+
