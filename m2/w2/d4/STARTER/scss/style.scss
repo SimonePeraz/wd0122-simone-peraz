@@ -1,0 +1,83 @@
+@import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: $fw;
+}
+#main-menu {
+    font-style: italic;
+    background-color: $hg-col;
+    border-radius: $brd-rd;
+
+    ul{
+        padding: 10px;
+
+        li{
+            display: inline;
+            a{
+                text-decoration: $t-nn;
+                color: white;
+                padding: 20px;
+            }
+        }
+    }
+}
+
+p{
+    a{
+        color: $a-col;
+        text-decoration: $t-nn;
+
+    }
+}
+
+#main{
+    display: flex;
+    article{
+        flex-basis: 75%;
+    }
+    aside{
+        flex-basis: 25%;
+    }
+}
+@mixin btn {
+    background-color: rgb(245, 176, 16);
+    color: white;
+    border: 2px solid gray;
+    padding: 5px;
+}
+button{
+   @include btn;
+
+}
+
+#sidebar{
+    ul{
+        list-style-type: none;
+
+        li{
+            padding: 15px;
+            border-bottom: 3px dotted rgb(190, 185, 185);
+            width: 50%;
+
+        }
+    }
+}
+
+#footer{
+    height: 80px;
+    background-color: $lw-col;
+    border-radius: $brd-rd;
+}
+
+#content{
+    margin: 0 10%;
+}
+
+input, textarea{
+    margin-bottom: 10px;
+    &:hover{
+        border: 6px solid $lw-col;
+        border-radius: 5%;
+    }
+}
