@@ -7811,15 +7811,17 @@ textarea.form-control-lg {
     display: none !important; } }
 
 header {
-  background-color: #7133c8; }
+  background-color: #7133c8;
+  color: white; }
   header i {
     color: orange; }
 
 main {
   background-image: url(/img/pexels-aleksandar-pasaric-325185.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 800px; }
+  background-size: auto;
+  background-position: center;
+  padding-bottom: 200px; }
   main h1, main .h1 {
     font-size: 3rem; }
   main .btn-primary {
@@ -7827,7 +7829,8 @@ main {
     border: 1px solid #7133c8; }
 
 #loremIcon {
-  background-color: #f3f4f5; }
+  background-color: #f3f4f5;
+  color: black; }
   #loremIcon .bi {
     font-size: 4rem; }
 
