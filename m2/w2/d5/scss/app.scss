@@ -1,0 +1,70 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import 'variables';
+@import 'functions';
+
+header{
+    background-color: $prp-bg;
+  
+    i{
+        color: orange;
+    }
+}
+
+main{
+    background-image: url(/img/pexels-aleksandar-pasaric-325185.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    h1{
+        font-size: 3rem;
+    }
+    .btn-primary{
+        background-color:$prp-bg;
+        border: 1px solid $prp-bg;
+    }
+}
+
+#loremIcon{
+    background-color: #f3f4f5;
+
+.bi{
+    font-size: 4rem;
+}
+}
+
+footer{
+    background-color:$prp-bg;
+
+}
+
+#wawe{
+    img{
+        width:100px;
+    }
+}
+
+#partner{
+    font-size: 4rem;
+}
+
+.carousel-item{
+    text-align: center;
+    .carousel-caption{
+        left: auto;
+        right: auto;
+
+    }
+    img{
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+    }
+    *{
+        position: relative !important;
+    }
+    i{
+        color: rgb(202, 13, 95);
+    }
+   
+}
