@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>effettua il login</p>
+
+    <input type="text" id="nome">
+    <button id="login">login</button> 
+    <button id="logout">logout</button>
+
+
+    <script>
+        if(localStorage.getItem('nome')){
+            document.querySelector('p').innerHTML = 'ciao, ' + localStorage.getItem('nome')
+        }
+
+        document.getElementById('login').addEventListener('click', function(){
+            let nome = document.getElementById('nome').value
+            localStorage.setItem('nome', nome)
+            document.querySelector('p').innerHTML = 'ciao, ' + nome
+        })
+
+        document.querySelector('#logout').addEventListener('click', function(){
+            localStorage.removeItem('nome')
+        })
+    </script>
+
+    <hr>
+
+    <p>sono passati <span id="tempo"></span>secondi</p>
+    <script>
+        let t = 0
+
+        if(sessionStorage.getItem('tempo')){
+            t = sessionStorage.getItem('tempo')
+        }
+        
+        setInterval(function(){
+            t++
+            sessionStorage.setItem('tempo', t)
+            document.getElementById('tempo').innerHTML = t
+        },1000)
+    </script>
+</body>
+</html>
