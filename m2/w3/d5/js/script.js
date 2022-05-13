@@ -8,7 +8,7 @@ fetch(JSON)
     console.log(res);
     for(let user of res){
         console.log(user.name);
-        // let visualized = ["username","firstName","lastName","gender","profileURL","email"]
+        
         let tr = document.createElement('tr')
         tr.classList.add('row','p-3','pb-0','pt-0')
 
@@ -43,4 +43,3 @@ fetch(JSON)
     }
 })
 
-// `<img src=" ${utente.profileURL} ">`
